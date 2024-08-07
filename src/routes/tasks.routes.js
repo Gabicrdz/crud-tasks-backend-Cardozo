@@ -1,4 +1,4 @@
-const {crearTasks,obtenerTasks,obtenerID,editarTasks,eliminarTasks}= require('../controllers/tasks.controllers');
+const {crearTasks,obtenerTasks,obtenerID,editarTasks,eliminarTasks}= require('../controllers/tasks.controllers.js');
 const routes = require('express').Router();
 
 routes.get('/tasks',obtenerTasks);
